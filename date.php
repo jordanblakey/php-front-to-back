@@ -12,7 +12,7 @@
 	echo date('s');	// Seconds
 	echo date('a');	// AM or PM
 
-	// Set Time Zone
+	// Set TimeZone
 	date_default_timezone_set('America/New_York');
 
 	echo date('h:i:sa');
